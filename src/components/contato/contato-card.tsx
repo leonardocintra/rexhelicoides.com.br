@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
+import fotoMarquito from "../../../public/img/equipe/comarca.jpeg";
 
 interface ContatoCardProps {
   nome: string;
   cargo: string;
   descricao: string;
+  fotoSrc: StaticImageData;
   email?: string;
   twitter?: string;
   instagram?: string;
@@ -17,7 +19,7 @@ export default function ContatoCard(props: ContatoCardProps) {
         <Image
           alt="team"
           className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-          src={"https://dummyimage.com/200x200"}
+          src={props.fotoSrc}
         />
         <div className="flex-grow sm:pl-8">
           <h2 className="title-font font-medium text-lg text-gray-900">
@@ -30,8 +32,8 @@ export default function ContatoCard(props: ContatoCardProps) {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin={"round"}
                 strokeWidth={2}
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
@@ -43,8 +45,8 @@ export default function ContatoCard(props: ContatoCardProps) {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin={"round"}
                 strokeWidth={2}
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
@@ -56,8 +58,8 @@ export default function ContatoCard(props: ContatoCardProps) {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin={"round"}
                 strokeWidth={2}
                 className="w-5 h-5"
                 viewBox="0 0 24 24"

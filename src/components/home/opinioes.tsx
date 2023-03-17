@@ -1,4 +1,5 @@
 import Image from "next/image";
+import FotosEquipe from "../utils/fotos-path";
 
 export default function Opinioes() {
   return (
@@ -10,7 +11,7 @@ export default function Opinioes() {
               <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src="https://dummyimage.com/302x302"
+                src={FotosEquipe.fotoJoaoMarcos}
               />
               <p className="leading-relaxed">
                 Eu trabalhava muito e nao dava certo. Entao comecei a fazer
@@ -28,7 +29,7 @@ export default function Opinioes() {
               <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src="https://dummyimage.com/300x300"
+                src={FotosEquipe.fotoLuquinha}
               />
               <p className="leading-relaxed">
                 Opinião é igual bunda, vou dar a minha: eu trabalhava muito e
@@ -48,7 +49,7 @@ export default function Opinioes() {
               <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                src="https://dummyimage.com/305x305"
+                src={FotosEquipe.fotoLeonardo}
               />
               <p className="leading-relaxed">
                 Quando fiquei sabendo do projeto resolvi fazer o site e toda

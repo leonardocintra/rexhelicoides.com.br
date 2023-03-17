@@ -1,4 +1,5 @@
 import ContatoCard from "../../components/contato/contato-card";
+import FotosEquipe from "../../components/utils/fotos-path";
 import RootLayout from "../layout";
 
 export default function Equipe() {
@@ -36,31 +37,37 @@ export default function Equipe() {
           </div>
           <div className="flex flex-wrap -m-4">
             <ContatoCard
+              fotoSrc={FotosEquipe.fotoJoaoMarcos}
               nome="João Marcos Cintra"
               cargo="co-fundador / CEO"
               descricao="Formado em Engenharia Mecanica, tratorista, bolsonarista firme viu..."
             />
             <ContatoCard
+              fotoSrc={FotosEquipe.fotoLuquinha}
               nome="Lucas Carrijo"
               cargo="co-fundador / CEO"
               descricao="Formado em Engenharia Mecanica, tratorista, bolsonarista firme viu..."
             />
             <ContatoCard
+              fotoSrc={FotosEquipe.fotoMarilia}
               nome="Marilia Cintra"
               cargo="Diretora Comunicação"
               descricao="Noiva do CEO Lucas e manja de Instagram, Reels, Stories e tudo paara atender o cliente com rapidez e seriedade"
             />
             <ContatoCard
+              fotoSrc={FotosEquipe.fotoLeonardo}
               nome="Leonardo Cintra"
               cargo="Gerente de TI"
               descricao="Formado em Sistemas de Informação e desenvolvedor desse site e gerencia toda a parte de TI da empresa"
             />
             <ContatoCard
+              fotoSrc={FotosEquipe.fotoPedro}
               nome="Pedro José Cintra"
               cargo="Gerente Agrônomo"
               descricao="Formado em Engenharia Agronoma, vai casar com a Stela e esta ai pra dar todas as orientações para agricultura"
             />
             <ContatoCard
+              fotoSrc={FotosEquipe.fotoDaniel}
               nome="Daniel Cintra"
               cargo="Investidor"
               descricao="Tentou várias faculdades e não foi pra frente, mas tem grana e esta financiando essa empresa, pesquisa. O cabra é bom."

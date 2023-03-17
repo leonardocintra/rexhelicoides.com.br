@@ -2,6 +2,7 @@ import Image from "next/image";
 import Opinioes from "../components/home/opinioes";
 import Produto from "../components/produto/produto";
 import RootLayout from "./layout";
+import fotoMarquito from "../../public/img/equipe/comarca.jpeg";
 
 export default function Home(): JSX.Element {
   return (
@@ -30,7 +31,7 @@ export default function Home(): JSX.Element {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/720x400"
+                  src={fotoMarquito}
                   alt="content"
                 />
                 <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
@@ -48,7 +49,7 @@ export default function Home(): JSX.Element {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/721x401"
+                  src={fotoMarquito}
                   alt="content"
                 />
                 <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
@@ -67,7 +68,7 @@ export default function Home(): JSX.Element {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/722x402"
+                  src={fotoMarquito}
                   alt="content"
                 />
                 <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
@@ -86,7 +87,7 @@ export default function Home(): JSX.Element {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/723x403"
+                  src={fotoMarquito}
                   alt="content"
                 />
                 <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
