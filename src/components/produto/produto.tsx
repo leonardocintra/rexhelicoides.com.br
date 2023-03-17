@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 export default function Produto() {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-          <img
+          <Image
             alt="feature"
             className="object-cover object-center h-full w-full"
             src="https://dummyimage.com/460x500"

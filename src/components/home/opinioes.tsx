@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Opinioes() {
   return (
     <section className="text-gray-600 body-font">
@@ -5,56 +7,54 @@ export default function Opinioes() {
         <div className="flex flex-wrap -m-4">
           <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
             <div className="h-full text-center">
-              <img
+              <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                 src="https://dummyimage.com/302x302"
               />
               <p className="leading-relaxed">
-                Edison bulb retro cloud bread echo park, helvetica stumptown
-                taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                adaptogen squid fanny pack vaporware.
+                Eu trabalhava muito e nao dava certo. Entao comecei a fazer
+                roscas para jogar o esterco pra mim
               </p>
               <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
-                HOLDEN CAULFIELD
+                JOÃO MARCOS CINTRA
               </h2>
-              <p className="text-gray-500">Senior Product Designer</p>
+              <p className="text-gray-500">co-fundador / CEO</p>
             </div>
           </div>
           <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
             <div className="h-full text-center">
-              <img
+              <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                 src="https://dummyimage.com/300x300"
               />
               <p className="leading-relaxed">
-                Edison bulb retro cloud bread echo park, helvetica stumptown
-                taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                adaptogen squid fanny pack vaporware.
+                Opinião é igual bunda, vou dar a minha: eu trabalhava muito e
+                nao dava certo. Entao comecei a fazer roscas para jogar o
+                esterco pra mim e terminar o mais rapido possivel para eu ir
+                namorar em Franca/Claraval
               </p>
               <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
-                ALPER KAMU
+                LUCAS CARRIJO
               </h2>
-              <p className="text-gray-500">UI Develeoper</p>
+              <p className="text-gray-500">co-fundador / CEO</p>
             </div>
           </div>
           <div className="lg:w-1/3 lg:mb-0 p-4">
             <div className="h-full text-center">
-              <img
+              <Image
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                 src="https://dummyimage.com/305x305"
               />
               <p className="leading-relaxed">
-                Edison bulb retro cloud bread echo park, helvetica stumptown
-                taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                adaptogen squid fanny pack vaporware.
+                Quando fiquei sabendo do projeto resolvi fazer o site e toda
+                informação de redes sociais para que mais pessoas podem ter
+                acesso a essa maravilha da engenharia e facilitar o trabalho no
+                campo
               </p>
               <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
