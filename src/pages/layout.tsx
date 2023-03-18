@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Footer from "../components/footer/footer";
-import Header from "../components/header/menu-header";
+import Footer from "../components/footer/Footer";
+import Header from "../components/header/MenuHeader";
 
 export default function RootLayout({ children }: any): JSX.Element {
   return (

@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
+import { GiLightningHelix } from "react-icons/gi";
+import MenuHeaderLink from "./MenuHeaderLink";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +13,10 @@ const Header = () => {
       <div className="flex items-center justify-between px-4 py-3 sm:p-0">
         <div>
           <Link href="/" className="text-white text-xl font-bold leading-none">
-            Rex - Helicoides
+            <div className="flex space-x-3">
+              <h3>Rex - Helicoides</h3>
+              <GiLightningHelix />
+            </div>
           </Link>
         </div>
         <div className="sm:hidden">
@@ -41,24 +46,9 @@ const Header = () => {
       <nav
         className={`px-2 pb-4 sm:flex sm:p-0 ${isOpen ? "block" : "hidden"}`}
       >
-        <Link
-          href="/"
-          className="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-700"
-        >
-          Início
-        </Link>
-        <Link
-          href="/equipe"
-          className="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-700 sm:mt-0 sm:ml-2"
-        >
-          Equipe
-        </Link>
-        <Link
-          href="/contato"
-          className="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-700 sm:mt-0 sm:ml-2"
-        >
-          Contato
-        </Link>
+        <MenuHeaderLink href="/" descricao="Início" />
+        <MenuHeaderLink href="/equipe" descricao="Equipe" />
+        <MenuHeaderLink href="/contato" descricao="Contato" />
       </nav>
     </header>
   );

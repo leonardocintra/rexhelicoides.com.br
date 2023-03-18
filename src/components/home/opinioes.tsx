@@ -61,7 +61,7 @@ export default function Opinioes() {
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
                 LEONARDO CINTRA
               </h2>
-              <p className="text-gray-500">CTO</p>
+              <p className="text-gray-500">Gerente de TI</p>
             </div>
           </div>
         </div>

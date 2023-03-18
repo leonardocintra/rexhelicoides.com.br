@@ -1,4 +1,4 @@
-import ContatoCard from "../../components/contato/contato-card";
+import ContatoCard from "../../components/contato/ContatoCard";
 import FotosEquipe from "../../components/utils/fotos-path";
 import RootLayout from "../layout";
 
