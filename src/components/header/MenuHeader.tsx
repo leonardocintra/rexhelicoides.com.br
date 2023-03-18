@@ -10,7 +10,7 @@ const Header = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="bg-[#14213b] sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
+    <header className="bg-luqinha sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
       <div className="flex items-center justify-between px-4 py-3 sm:p-0">
         <div>
           <Link href="/" className="">

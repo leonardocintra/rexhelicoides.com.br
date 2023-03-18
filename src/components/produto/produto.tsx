@@ -1,7 +1,19 @@
 import Image from "next/image";
-import fotoMarquito from "../../../public/img/equipe/comarca.jpeg";
+import { useEffect, useState } from "react";
+import imagemHelicoide1 from "../../../public/img/helicoides/helicoide-1.jpeg";
+import imagemHelicoide2 from "../../../public/img/helicoides/helicoide-2.jpeg";
+
+const images = [imagemHelicoide2, imagemHelicoide1];
 
 export default function Produto() {
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    setInterval(() => {
+      setCurrentImage((currentImage + 1) % images.length);
+    }, 3000);
+  }, [currentImage]);
+
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
@@ -9,7 +21,7 @@ export default function Produto() {
           <Image
             alt="feature"
             className="object-cover object-center h-full w-full"
-            src={fotoMarquito}
+            src={images[currentImage]}
           />
         </div>
         <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
@@ -29,14 +41,14 @@ export default function Produto() {
             </div>
             <div className="flex-grow">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                Shooting Stars
+                Resistente
               </h2>
               <p className="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Trabalha bruto no campo, pode vim esterco, palha de café, grãos
+                que o bixo ta firme
               </p>
               <a className="mt-3 text-blue-500 inline-flex items-center">
-                Learn More
+                Mais detalhes
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -69,14 +81,14 @@ export default function Produto() {
             </div>
             <div className="flex-grow">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                The Catalyzer
+                Não trava
               </h2>
               <p className="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Trabalha sem parar, por isso preciso de mais detalhes do que
+                escrever aqui
               </p>
               <a className="mt-3 text-blue-500 inline-flex items-center">
-                Learn More
+                Mais detalhes
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -108,14 +120,14 @@ export default function Produto() {
             </div>
             <div className="flex-grow">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                Neptune
+                Feito por quem entende
               </h2>
               <p className="leading-relaxed text-base">
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
+                Equipe de engenharia e agronomia trabalham juntos para terem o
+                melhor resultado
               </p>
               <a className="mt-3 text-blue-500 inline-flex items-center">
-                Learn More
+                Mais detalhes
                 <svg
                   fill="none"
                   stroke="currentColor"
