@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { GiLightningHelix } from "react-icons/gi";
+import Logo from "../home/Logo";
 import MenuHeaderLink from "./MenuHeaderLink";
 
 const Header = () => {
@@ -9,14 +10,11 @@ const Header = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="bg-gray-800 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
+    <header className="bg-[#14213b] sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3">
       <div className="flex items-center justify-between px-4 py-3 sm:p-0">
         <div>
-          <Link href="/" className="text-white text-xl font-bold leading-none">
-            <div className="flex space-x-3">
-              <h3>Rex - Helicoides</h3>
-              <GiLightningHelix />
-            </div>
+          <Link href="/" className="">
+            <Logo />
           </Link>
         </div>
         <div className="sm:hidden">
