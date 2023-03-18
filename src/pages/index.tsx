@@ -2,6 +2,9 @@ import Image from "next/image";
 import Produto from "../components/produto/produto";
 import RootLayout from "./layout";
 import imagemHelicoideNaCarreta from "../../public/img/helicoides/helicoide-na-carreta.jpeg";
+import imagemHelicodeVertical21 from "../../public/img/helicoides/horizontal/helicoide-21.jpeg";
+import imagemHelicodeVertical22 from "../../public/img/helicoides/horizontal/helicoide-22.jpeg";
+import imagemHelicodeVertical23 from "../../public/img/helicoides/horizontal/helicoide-23.jpeg";
 import Logo from "../components/home/Logo";
 import Opinioes from "../components/home/Opinioes";
 
@@ -72,18 +75,17 @@ export default function Home(): JSX.Element {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
-                  src={imagemHelicoideNaCarreta}
+                  src={imagemHelicodeVertical22}
                   alt="content"
                 />
                 <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
-                  SUBTITLE
+                  PERFEITO
                 </h3>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                  Great Pyramid of Giza
+                  Excelencia
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waistcoat.
-                  Distillery hexagon disrupt edison bulbche.
+                  Feito para ter o melhor desempenho
                 </p>
               </div>
             </div>
@@ -91,18 +93,17 @@ export default function Home(): JSX.Element {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <Image
                   className="h-40 rounded w-full object-cover object-center mb-6"
-                  src={imagemHelicoideNaCarreta}
+                  src={imagemHelicodeVertical23}
                   alt="content"
                 />
                 <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
-                  SUBTITLE
+                  NA CARRETA
                 </h3>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                  San Francisco
+                  Todos os formatos
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waistcoat.
-                  Distillery hexagon disrupt edison bulbche.
+                  Trabalhamos sob medida
                 </p>
               </div>
             </div>
