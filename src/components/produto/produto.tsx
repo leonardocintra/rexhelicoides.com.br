@@ -2,8 +2,29 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import imagemHelicoide1 from "../../../public/img/helicoides/helicoide-1.jpeg";
 import imagemHelicoide2 from "../../../public/img/helicoides/helicoide-2.jpeg";
+import imagemHelicoide3 from "../../../public/img/helicoides/helicoide-3.jpeg";
+import imagemHelicoide4 from "../../../public/img/helicoides/helicoide-4.jpeg";
+import imagemHelicoide5 from "../../../public/img/helicoides/helicoide-5.jpeg";
+import imagemHelicoide6 from "../../../public/img/helicoides/helicoide-6.jpeg";
+import imagemHelicoide7 from "../../../public/img/helicoides/helicoide-7.jpeg";
+import imagemHelicoide8 from "../../../public/img/helicoides/helicoide-8.jpeg";
+import imagemHelicoide9 from "../../../public/img/helicoides/helicoide-9.jpeg";
+import imagemHelicoide10 from "../../../public/img/helicoides/helicoide-10.jpeg";
+import imagemHelicoide11 from "../../../public/img/helicoides/helicoide-11.jpeg";
 
-const images = [imagemHelicoide2, imagemHelicoide1];
+const images = [
+  imagemHelicoide1,
+  imagemHelicoide2,
+  imagemHelicoide3,
+  imagemHelicoide4,
+  imagemHelicoide5,
+  imagemHelicoide6,
+  imagemHelicoide7,
+  imagemHelicoide8,
+  imagemHelicoide9,
+  imagemHelicoide10,
+  imagemHelicoide11,
+];
 
 export default function Produto() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -11,7 +32,7 @@ export default function Produto() {
   useEffect(() => {
     setInterval(() => {
       setCurrentImage((currentImage + 1) % images.length);
-    }, 3000);
+    }, 5000);
   }, [currentImage]);
 
   return (
@@ -20,7 +41,7 @@ export default function Produto() {
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
           <Image
             alt="feature"
-            className="object-cover object-center h-full w-full"
+            className="object-cover object-center h-full w-full duration-300"
             src={images[currentImage]}
           />
         </div>
