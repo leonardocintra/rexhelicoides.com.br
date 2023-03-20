@@ -9,7 +9,7 @@ export default function Equipe() {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">
-              Nossa equipe
+              Conheça nosso time
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
               Somos uma equipe responsável pela fabricação de helicoides
@@ -41,37 +41,37 @@ export default function Equipe() {
               fotoSrc={FotosEquipe.fotoJoaoMarcos}
               nome="João Marcos Cintra"
               cargo="co-fundador / CEO"
-              descricao="Formado em Engenharia Mecanica, tratorista, bolsonarista firme viu..."
+              descricao="Engenheiro Mecânico, agricultor e produtor de café"
             />
             <ContatoCard
               fotoSrc={FotosEquipe.fotoLuquinha}
               nome="Lucas Carrijo"
               cargo="co-fundador / CEO"
-              descricao="Formado em Engenharia Mecanica, tratorista, bolsonarista firme viu..."
+              descricao="Engenheiro Mecânico, agricultor e produtor de café"
             />
             <ContatoCard
               fotoSrc={FotosEquipe.fotoMarilia}
               nome="Marilia Cintra"
               cargo="Diretora Comunicação"
-              descricao="Noiva do CEO Lucas e manja de Instagram, Reels, Stories e tudo paara atender o cliente com rapidez e seriedade"
+              descricao="Comunicação em geral, piscicologa e recursos humanos"
             />
             <ContatoCard
               fotoSrc={FotosEquipe.fotoLeonardo}
               nome="Leonardo Cintra"
               cargo="Gerente de TI"
-              descricao="Formado em Sistemas de Informação e desenvolvedor desse site e gerencia toda a parte de TI da empresa"
+              descricao="Formado em Sistemas de informação. Gerencia toda a parte de infomação, tecnologia e redes sociais."
             />
             <ContatoCard
               fotoSrc={FotosEquipe.fotoPedro}
               nome="Pedro José Cintra"
               cargo="Gerente Agrônomo"
-              descricao="Formado em Engenharia Agronoma, vai casar com a Stela e esta ai pra dar todas as orientações para agricultura"
+              descricao="Engenheiro agrônomo responsavel por orientação e pesquisa em conjunto com os engenheiros mecânicos para desenvolvimento maquina-campo."
             />
             <ContatoCard
               fotoSrc={FotosEquipe.fotoDaniel}
               nome="Daniel Cintra"
-              cargo="Investidor"
-              descricao="Tentou várias faculdades e não foi pra frente, mas tem grana e esta financiando essa empresa, pesquisa. O cabra é bom."
+              cargo="Gerente de qualidade e investidor"
+              descricao="Testador e orientador de desenvolvimento"
             />
           </div>
         </div>

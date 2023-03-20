@@ -35,7 +35,7 @@ export default function Opinioes() {
                 src={FotosEquipe.fotoLuquinha}
               />
               <p className="leading-relaxed">
-                Me preocupa em manter atualizado com as últimas tecnologias e
+                Tenho me atualizado com as últimas tecnologias e
                 inovações da minha área, e em aprimorar continuamente nossos
                 métodos e processos de fabricação de helicoides para garantir
                 que atendam às necessidades dos agricultores.
@@ -55,8 +55,8 @@ export default function Opinioes() {
                 src={FotosEquipe.fotoLeonardo}
               />
               <p className="leading-relaxed">
-                Quando fiquei sabendo do projeto, resolvi ajudar desenvolvento
-                desse site e gerenciar toda informação da internet. Para que
+                Quando fiquei sabendo do projeto, resolvi contribuir com
+                esse site e gerenciar toda informação da internet. Para que
                 mais pessoas conhecam o projeto e possam usa - las em suas
                 fazendas para melhorar a produtividade. E claro também a
                 compartilhar conhecimento de forma mais ampla.
