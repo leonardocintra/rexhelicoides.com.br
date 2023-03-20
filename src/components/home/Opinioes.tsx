@@ -14,8 +14,11 @@ export default function Opinioes() {
                 src={FotosEquipe.fotoJoaoMarcos}
               />
               <p className="leading-relaxed">
-                Eu trabalhava muito e nao dava certo. Entao comecei a fazer
-                roscas para jogar o esterco pra mim
+                Me sinto motivado pelo desafio de projetar helicoides que sejam
+                resistentes, duráveis e capazes de lidar com as demandas e
+                condições extremas do trabalho agrícola. Estou orgulhoso de
+                poder contribuir para a produção de café e outros alimentos e
+                para o desenvolvimento da economia.
               </p>
               <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
@@ -32,10 +35,10 @@ export default function Opinioes() {
                 src={FotosEquipe.fotoLuquinha}
               />
               <p className="leading-relaxed">
-                Opinião é igual bunda, vou dar a minha: eu trabalhava muito e
-                nao dava certo. Entao comecei a fazer roscas para jogar o
-                esterco pra mim e terminar o mais rapido possivel para eu ir
-                namorar em Franca/Claraval
+                Me preocupa em manter atualizado com as últimas tecnologias e
+                inovações da minha área, e em aprimorar continuamente nossos
+                métodos e processos de fabricação de helicoides para garantir
+                que atendam às necessidades dos agricultores.
               </p>
               <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
@@ -52,10 +55,11 @@ export default function Opinioes() {
                 src={FotosEquipe.fotoLeonardo}
               />
               <p className="leading-relaxed">
-                Quando fiquei sabendo do projeto resolvi fazer o site e toda
-                informação de redes sociais para que mais pessoas podem ter
-                acesso a essa maravilha da engenharia e facilitar o trabalho no
-                campo
+                Quando fiquei sabendo do projeto, resolvi ajudar desenvolvento
+                desse site e gerenciar toda informação da internet. Para que
+                mais pessoas conhecam o projeto e possam usa - las em suas
+                fazendas para melhorar a produtividade. E claro também a
+                compartilhar conhecimento de forma mais ampla.
               </p>
               <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">

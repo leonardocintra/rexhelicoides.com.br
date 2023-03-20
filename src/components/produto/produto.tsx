@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import imagemHelicoide1 from "../../../public/img/helicoides/vertical/helicoide-1.jpeg";
 import imagemHelicoide2 from "../../../public/img/helicoides/vertical/helicoide-2.jpeg";
 import imagemHelicoide3 from "../../../public/img/helicoides/vertical/helicoide-3.jpeg";
