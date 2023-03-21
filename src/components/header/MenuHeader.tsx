@@ -21,9 +21,9 @@ const Header = () => {
           <button
             type="button"
             onClick={toggleMenu}
-            className="text-gray-500 hover:text-white focus:text-white focus:outline-none"
+            className="text-gray-200 hover:text-white focus:text-white focus:outline-none"
           >
-            <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
+            <svg className="h-16 w-1h-16 fill-current" viewBox="0 0 24 24">
               {isOpen ? (
                 <path
                   fillRule="evenodd"

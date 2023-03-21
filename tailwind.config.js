@@ -13,6 +13,9 @@ module.exports = {
       colors: {
         luqinha: "#14213b",
       },
+      fontFamily: {
+        leagueSpartan: ["League Spartan"],
+      },
     },
   },
   plugins: [],

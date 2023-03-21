@@ -10,7 +10,7 @@ export default function MenuHeaderLink(props: MenuHeaderLinkProps) {
     <div>
       <Link
         href={props.href}
-        className="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-700"
+        className="block px-5 py-4 text-white text-2xl font-semibold rounded hover:bg-gray-700 duration-200"
       >
         {props.descricao}
       </Link>

@@ -1,12 +1,11 @@
-import Image from "next/image";
 import Produto from "../components/produto/produto";
 import RootLayout from "./layout";
 import imagemHelicoideNaCarreta from "../../public/img/helicoides/helicoide-na-carreta.jpeg";
-import imagemHelicodeVertical21 from "../../public/img/helicoides/horizontal/helicoide-21.jpeg";
 import imagemHelicodeVertical22 from "../../public/img/helicoides/horizontal/helicoide-22.jpeg";
 import imagemHelicodeVertical23 from "../../public/img/helicoides/horizontal/helicoide-23.jpeg";
 import Logo from "../components/home/Logo";
 import Opinioes from "../components/home/Opinioes";
+import Card from "../components/home/Card";
 
 export default function Home(): JSX.Element {
   return (
@@ -31,82 +30,30 @@ export default function Home(): JSX.Element {
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-gray-100 p-6 rounded-lg">
-                <video
-                  autoPlay
-                  loop
-                  muted
-                  className="h-40 rounded w-full object-cover object-center mb-6"
-                >
-                  <source src="/video/helicoide.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-                <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
-                  QUALIDADE
-                </h3>
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                  Trabalho final
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Qualidade na finalização do produto
-                </p>
-              </div>
-            </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-gray-100 p-6 rounded-lg">
-                <Image
-                  className="h-40 rounded w-full object-cover object-center mb-6"
-                  src={imagemHelicoideNaCarreta}
-                  alt="content"
-                />
-                <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
-                  TESTADO
-                </h3>
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                  Testado em campo
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Também somos consumidores dos nossos helicoides
-                </p>
-              </div>
-            </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-gray-100 p-6 rounded-lg">
-                <Image
-                  className="h-40 rounded w-full object-cover object-center mb-6"
-                  src={imagemHelicodeVertical22}
-                  alt="content"
-                />
-                <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
-                  PERFEITO
-                </h3>
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                  Excelencia
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Feito para ter o melhor desempenho
-                </p>
-              </div>
-            </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-gray-100 p-6 rounded-lg">
-                <Image
-                  className="h-40 rounded w-full object-cover object-center mb-6"
-                  src={imagemHelicodeVertical23}
-                  alt="content"
-                />
-                <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
-                  NA CARRETA
-                </h3>
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                  Todos os formatos
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Trabalhamos sob medida
-                </p>
-              </div>
-            </div>
+            <Card
+              imagem={imagemHelicoideNaCarreta}
+              titulo="QUALIDADE"
+              subTitulo="Trabalho final"
+              descricaoo="Qualidade na finalização do produto"
+            />
+            <Card
+              imagem={imagemHelicoideNaCarreta}
+              titulo="TESTADO"
+              subTitulo="Testado em campo"
+              descricaoo="Também somos consumidores dos nossos helicoides"
+            />
+            <Card
+              imagem={imagemHelicodeVertical22}
+              titulo="PERFEITO"
+              subTitulo="Excelencia"
+              descricaoo="Feito para ter o melhor desempenho"
+            />
+            <Card
+              imagem={imagemHelicodeVertical23}
+              titulo="NA CARRETA"
+              subTitulo="Todos os formatos"
+              descricaoo="Trabalhamos sob medida"
+            />
           </div>
         </div>
       </section>
