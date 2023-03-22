@@ -1,5 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-import fotoMarquito from "../../../public/img/equipe/comarca.jpeg";
 
 interface ContatoCardProps {
   nome: string;

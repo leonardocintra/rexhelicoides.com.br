@@ -13,8 +13,7 @@ export default function Contato() {
             marginHeight={0}
             marginWidth={0}
             src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Rua%20seis%20de%20abril%201302%20Ibiraci%20MG+(Rex%20Helicoides)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-          >
-          </iframe>
+          ></iframe>
         </div>
         <div className="container px-5 py-24 mx-auto flex">
           <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
@@ -60,6 +59,9 @@ export default function Contato() {
           </div>
         </div>
       </section>
+      <div className="bg-red-200 text-2xl text-red-700 p-10">
+        Telefone: (35) 9991-0614
+      </div>
     </RootLayout>
   );
 }

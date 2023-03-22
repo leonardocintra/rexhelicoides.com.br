@@ -38,7 +38,7 @@ export default function Opinioes() {
                 Tenho me atualizado com as últimas tecnologias e
                 inovações da minha área, e em aprimorar continuamente nossos
                 métodos e processos de fabricação de helicoides para garantir
-                que atendam às necessidades dos agricultores.
+                que atendam às necessidades dos nossos clientes.
               </p>
               <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">

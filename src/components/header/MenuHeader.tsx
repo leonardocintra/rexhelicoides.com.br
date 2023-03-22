@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { useState } from "react";
 import { GiLightningHelix } from "react-icons/gi";
+import { BiHomeAlt2 } from "react-icons/bi";
+import { IoIosPeople } from "react-icons/io";
+import { FiPhoneCall } from "react-icons/fi";
 import Logo from "../home/Logo";
 import MenuHeaderLink from "./MenuHeaderLink";
 
@@ -44,9 +47,17 @@ const Header = () => {
       <nav
         className={`px-2 pb-4 sm:flex sm:p-0 ${isOpen ? "block" : "hidden"}`}
       >
-        <MenuHeaderLink href="/" descricao="Início" />
-        <MenuHeaderLink href="/equipe" descricao="Equipe" />
-        <MenuHeaderLink href="/contato" descricao="Contato" />
+        <MenuHeaderLink href="/" descricao="Home" icone={<BiHomeAlt2 />} />
+        <MenuHeaderLink
+          href="/equipe"
+          descricao="Equipe"
+          icone={<IoIosPeople />}
+        />
+        <MenuHeaderLink
+          href="/contato"
+          descricao="Contato"
+          icone={<FiPhoneCall />}
+        />
       </nav>
     </header>
   );

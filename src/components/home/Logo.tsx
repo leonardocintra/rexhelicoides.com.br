@@ -10,7 +10,7 @@ export default function Logo() {
           <h3 className="text-red-600">X</h3>
           <h3 className="">X</h3>
         </div>
-        <h4 className="font-light text-2xl pl-4">Helicóides</h4>
+        <h4 className="text-2xl pl-4">Helicóides</h4>
       </div>
     </div>
   );

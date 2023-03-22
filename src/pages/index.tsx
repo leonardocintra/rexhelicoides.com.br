@@ -17,14 +17,18 @@ export default function Home(): JSX.Element {
               <div className="flex sm:text-4xl text-3xl font-medium title-font mb-2 bg-luqinha text-white p-5 rounded-md sm:max-w-sm items-center space-x-2">
                 <Logo />
               </div>
-              <div className="h-1 w-20 bg-blue-500 rounded"></div>
+              <div className="h-1 w-48 bg-blue-500 rounded"></div>
+              <div className="font-semibold font-leagueSpartan pt-4 text-2xl">Fabricamamos helicóides sob medida</div>
             </div>
-            <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-              Somos uma empresa de helicoides especializada na fabricação e
+            <p className="lg:w-1/2 w-full leading-relaxed text-gray-700 bg-gray-200 p-4 rounded-lg shadow-lg">
+              Somos uma empresa de helicóides especializada na fabricação e
               fornecimento de componentes de transmissão de energia, incluindo
               engrenagens helicoidais. Com equipes de design e engenharia, que
               criam soluções personalizadas para atender às necessidades
-              específicas dos clientes. Também oferecemos serviços de reparo e
+              específicas pra vocês.
+              <br /> <br />
+              
+              Fique tranquilo, oferecemos serviços de reparo e
               manutenção, além de outros produtos relacionados, para fornecer
               soluções completas de transmissão de energia.
             </p>
