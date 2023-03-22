@@ -20,7 +20,7 @@ export default function Home(): JSX.Element {
               <div className="h-1 w-48 bg-blue-500 rounded"></div>
               <div className="font-semibold font-leagueSpartan pt-4 text-2xl">Fabricamamos helicóides sob medida</div>
             </div>
-            <p className="lg:w-1/2 w-full leading-relaxed text-gray-700 bg-gray-200 p-4 rounded-lg shadow-lg">
+            <p className="lg:w-1/2 w-full leading-relaxed text-gray-700 bg-gray-200 px-7 py-5 rounded-lg shadow-lg">
               Somos uma empresa de helicóides especializada na fabricação e
               fornecimento de componentes de transmissão de energia, incluindo
               engrenagens helicoidais. Com equipes de design e engenharia, que
