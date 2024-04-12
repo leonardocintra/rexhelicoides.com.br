@@ -57,8 +57,9 @@ export default function Contato() {
           </div>
         </div>
       </section>
-      <div className="bg-red-200 text-2xl text-red-700 p-10">
-        Telefone: (35) 9991-0614
+      <div className="flex justify-center items-center space-x-2 bg-red-200 text-3xl text-red-700 p-10">
+        <span className="text-xl"> Telefone: </span>
+        <span>(35) 9991-0614</span>
       </div>
     </div>
   );
