@@ -1,69 +1,16 @@
 import Image from "next/image";
-import { useState } from "react";
-import imagemHelicoide1 from "../../../public/img/helicoides/vertical/helicoide-1.jpeg";
-import imagemHelicoide2 from "../../../public/img/helicoides/vertical/helicoide-2.jpeg";
-import imagemHelicoide3 from "../../../public/img/helicoides/vertical/helicoide-3.jpeg";
-import imagemHelicoide4 from "../../../public/img/helicoides/vertical/helicoide-4.jpeg";
-import imagemHelicoide5 from "../../../public/img/helicoides/vertical/helicoide-5.jpeg";
-import imagemHelicoide6 from "../../../public/img/helicoides/vertical/helicoide-6.jpeg";
-import imagemHelicoide7 from "../../../public/img/helicoides/vertical/helicoide-7.jpeg";
-import imagemHelicoide8 from "../../../public/img/helicoides/vertical/helicoide-8.jpeg";
-import imagemHelicoide9 from "../../../public/img/helicoides/vertical/helicoide-9.jpeg";
-import imagemHelicoide10 from "../../../public/img/helicoides/vertical/helicoide-10.jpeg";
-import imagemHelicoide11 from "../../../public/img/helicoides/vertical/helicoide-11.jpeg";
-import imagemHelicoide12 from "../../../public/img/helicoides/vertical/helicoide-12.jpeg";
-import imagemHelicoide13 from "../../../public/img/helicoides/vertical/helicoide-13.jpeg";
-import imagemHelicoide14 from "../../../public/img/helicoides/vertical/helicoide-14.jpeg";
-import imagemHelicoide15 from "../../../public/img/helicoides/vertical/helicoide-15.jpeg";
-import imagemHelicoide16 from "../../../public/img/helicoides/vertical/helicoide-16.jpeg";
-import imagemHelicoide17 from "../../../public/img/helicoides/vertical/helicoide-17.jpeg";
-import imagemHelicoide18 from "../../../public/img/helicoides/vertical/helicoide-18.jpeg";
-import imagemHelicoide19 from "../../../public/img/helicoides/vertical/helicoide-19.jpeg";
-import imagemHelicoide20 from "../../../public/img/helicoides/vertical/helicoide-20.jpeg";
-
-const images = [
-  imagemHelicoide1,
-  imagemHelicoide2,
-  imagemHelicoide3,
-  imagemHelicoide4,
-  imagemHelicoide5,
-  imagemHelicoide6,
-  imagemHelicoide7,
-  imagemHelicoide8,
-  imagemHelicoide9,
-  imagemHelicoide10,
-  imagemHelicoide11,
-  imagemHelicoide12,
-  imagemHelicoide13,
-  imagemHelicoide14,
-  imagemHelicoide15,
-  imagemHelicoide16,
-  imagemHelicoide17,
-  imagemHelicoide18,
-  imagemHelicoide19,
-  imagemHelicoide20,
-];
 
 export default function Produto() {
-  const [currentImage, setCurrentImage] = useState(0);
-
-  function setNextImage() {
-    if (currentImage < images.length - 1) {
-      setCurrentImage(currentImage + 1);
-    } else {
-      setCurrentImage(0);
-    }
-  }
-
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto flex flex-wrap">
+    <section className="text-gray-600 body-font mb-10">
+      <div className="container px-5 py-2 mx-auto flex flex-wrap">
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
           <Image
             alt="feature"
+            width={300}
+            height={300}
             className="object-cover object-center h-full w-full"
-            src={images[currentImage]}
-            onClick={setNextImage}
+            src={"/img/helicoides/vertical/helicoide-1.jpeg"}
           />
         </div>
         <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">

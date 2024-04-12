@@ -1,5 +1,5 @@
+import FotosEquipe from "@/utils/foto-equipe";
 import Image from "next/image";
-import FotosEquipe from "../utils/fotos-path";
 
 export default function Opinioes() {
   return (
@@ -10,6 +10,8 @@ export default function Opinioes() {
             <div className="h-full text-center">
               <Image
                 alt="testimonial"
+                width={200}
+                height={200}
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                 src={FotosEquipe.fotoJoaoMarcos}
               />
@@ -30,15 +32,17 @@ export default function Opinioes() {
           <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
             <div className="h-full text-center">
               <Image
+                width={200}
+                height={200}
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                 src={FotosEquipe.fotoLuquinha}
               />
               <p className="leading-relaxed">
-                Tenho me atualizado com as últimas tecnologias e
-                inovações da minha área, e em aprimorar continuamente nossos
-                métodos e processos de fabricação de helicoides para garantir
-                que atendam às necessidades dos nossos clientes.
+                Tenho me atualizado com as últimas tecnologias e inovações da
+                minha área, e em aprimorar continuamente nossos métodos e
+                processos de fabricação de helicoides para garantir que atendam
+                às necessidades dos nossos clientes.
               </p>
               <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
@@ -50,16 +54,18 @@ export default function Opinioes() {
           <div className="lg:w-1/3 lg:mb-0 p-4">
             <div className="h-full text-center">
               <Image
+                width={200}
+                height={200}
                 alt="testimonial"
                 className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
                 src={FotosEquipe.fotoLeonardo}
               />
               <p className="leading-relaxed">
-                Quando fiquei sabendo do projeto, resolvi contribuir com
-                esse site e gerenciar toda informação da internet. Para que
-                mais pessoas conhecam o projeto e possam usa - las em suas
-                fazendas para melhorar a produtividade. E claro também a
-                compartilhar conhecimento de forma mais ampla.
+                Quando fiquei sabendo do projeto, resolvi contribuir com esse
+                site e gerenciar toda informação da internet. Para que mais
+                pessoas conhecam o projeto e possam usa - las em suas fazendas
+                para melhorar a produtividade. E claro também a compartilhar
+                conhecimento de forma mais ampla.
               </p>
               <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
               <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">

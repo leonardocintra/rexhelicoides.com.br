@@ -1,10 +1,10 @@
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 
 interface ContatoCardProps {
   nome: string;
   cargo: string;
   descricao: string;
-  fotoSrc: StaticImageData;
+  fotoSrc: string;
   email?: string;
   twitter?: string;
   instagram?: string;
@@ -18,6 +18,8 @@ export default function ContatoCard(props: ContatoCardProps) {
         <Image
           alt="team"
           className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+          width={300}
+          height={300}
           src={props.fotoSrc}
         />
         <div className="flex-grow sm:pl-8">
