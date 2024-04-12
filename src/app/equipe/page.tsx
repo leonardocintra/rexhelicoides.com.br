@@ -34,7 +34,7 @@ export default function Equipe() {
               melhor resultado para seus clientes.
             </p>
           </div>
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap -m-4 justify-center">
             <ContatoCard
               fotoSrc={FotosEquipe.fotoJoaoMarcos}
               nome="João Marcos Cintra"

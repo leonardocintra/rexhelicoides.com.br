@@ -27,21 +27,31 @@ export default function HomeSection() {
             transmissão de energia.
           </p>
         </div>
+
+        <div className="text-center">
+          <h2 className="text-4xl mb-8">Nossos produtos</h2>
+        </div>
         <div className="flex flex-wrap -m-4">
           <HomeCard
-            imagem={"/img/helicoides/helicoide-na-carreta.jpeg"}
+            imagem={
+              "https://res.cloudinary.com/rexhelicoides/image/upload/v1712935701/vvfynthunrenmqxfim6m.jpg"
+            }
             titulo="QUALIDADE"
             subTitulo="Trabalho final"
             descricaoo="Qualidade na finalização do produto"
           />
           <HomeCard
-            imagem={"/img/helicoides/helicoide-na-carreta.jpeg"}
+            imagem={
+              "https://res.cloudinary.com/rexhelicoides/image/upload/v1712936563/photo_2023-03-15_20-22-16_z6hfzy.jpg"
+            }
             titulo="TESTADO"
             subTitulo="Testado em campo"
             descricaoo="Também somos consumidores dos nossos helicoides"
           />
           <HomeCard
-            imagem={"/img/helicoides/helicoide-na-carreta.jpeg"}
+            imagem={
+              "https://res.cloudinary.com/rexhelicoides/image/upload/v1712935701/tiq9x6f9frd9wsuihmh7.jpg"
+            }
             titulo="PERFEITO"
             subTitulo="Excelencia"
             descricaoo="Feito para ter o melhor desempenho"

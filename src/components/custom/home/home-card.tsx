@@ -12,10 +12,10 @@ export default function HomeCard(props: CardProps) {
     <div className="xl:w-1/4 md:w-1/2 p-4 w-full">
       <div className="bg-gray-100 p-6 rounded-lg">
         <Image
-          className="h-40 rounded w-full object-cover object-center mb-6"
+          className="h-auto rounded w-full object-cover object-center mb-6"
           src={props.imagem}
-          width={200}
-          height={200}
+          width={1200}
+          height={1300}
           alt="content"
         />
         <h3 className="tracking-widest text-blue-500 text-xs font-medium title-font">
