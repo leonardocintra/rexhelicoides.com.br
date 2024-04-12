@@ -1,11 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import { useState } from "react";
-import { GiLightningHelix } from "react-icons/gi";
 import { BiHomeAlt2 } from "react-icons/bi";
 import { IoIosPeople } from "react-icons/io";
 import { FiPhoneCall } from "react-icons/fi";
-import Logo from "../home/Logo";
-import MenuHeaderLink from "./MenuHeaderLink";
+import Logo from "@/components/custom/logo";
+import MenuHeaderLink from "@/components/custom/header/header-link";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

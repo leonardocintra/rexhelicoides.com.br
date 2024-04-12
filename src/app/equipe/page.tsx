@@ -1,10 +1,9 @@
-import ContatoCard from "../../components/contato/ContatoCard";
-import FotosEquipe from "../../components/utils/fotos-path";
-import RootLayout from "../layout";
+import ContatoCard from "@/components/custom/contato/contato-card";
+import FotosEquipe from "@/utils/foto-equipe";
 
 export default function Equipe() {
   return (
-    <RootLayout>
+    <div>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
@@ -17,13 +16,13 @@ export default function Equipe() {
               que possuem um profundo conhecimento técnico sobre o assunto.
               <br />
               <br />
-              Empresa com profissionais especializados em diferentes áreas, como engenharia
-              mecânica, agricultura, soldagem, dentre outras, e trabalhamos em
-              conjunto para produzir helicoides de alta qualidade. Com uma
-              abordagem colaborativa e multidisciplinar, nossa a equipe de
-              fabricação de helicoides busca constantemente aperfeiçoar seus
-              processos e técnicas, visando sempre à excelência e à satisfação
-              do cliente.
+              Empresa com profissionais especializados em diferentes áreas, como
+              engenharia mecânica, agricultura, soldagem, dentre outras, e
+              trabalhamos em conjunto para produzir helicoides de alta
+              qualidade. Com uma abordagem colaborativa e multidisciplinar,
+              nossa a equipe de fabricação de helicoides busca constantemente
+              aperfeiçoar seus processos e técnicas, visando sempre à excelência
+              e à satisfação do cliente.
               <br />
               <br />
               Somos profissionais! Além disso, estamos sempre em busca de
@@ -72,9 +71,15 @@ export default function Equipe() {
               cargo="Gerente de qualidade"
               descricao="Testa e avalia qualidade"
             />
+            <ContatoCard
+              fotoSrc={FotosEquipe.fotoPaulo}
+              nome="Paulo Carrijo"
+              cargo="Gerente Financeiro"
+              descricao="Formado em Administração. Responsavel Tesouraria, Fisco e Contabilidade"
+            />
           </div>
         </div>
       </section>
-    </RootLayout>
+    </div>
   );
 }

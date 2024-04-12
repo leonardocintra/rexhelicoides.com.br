@@ -1,8 +1,6 @@
-import RootLayout from "../layout";
-
 export default function Contato() {
   return (
-    <RootLayout>
+    <div>
       <section className="text-gray-600 body-font relative">
         <div className="absolute inset-0 bg-gray-300">
           <iframe
@@ -62,6 +60,6 @@ export default function Contato() {
       <div className="bg-red-200 text-2xl text-red-700 p-10">
         Telefone: (35) 9991-0614
       </div>
-    </RootLayout>
+    </div>
   );
 }

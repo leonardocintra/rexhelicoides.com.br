@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Logo from "../home/Logo";
+import Logo from "@/components/custom/logo";
 
 export default function Footer() {
   return (
@@ -9,7 +9,7 @@ export default function Footer() {
           <Logo />
         </a>
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-          © 2023 Desenvolvido por Leonardo Cintra —
+          © 2023 - {new Date().getFullYear()} Desenvolvido por Leonardo Cintra —
           <Link
             href="https://twitter.com/leonardoncintra"
             className="text-gray-600 ml-1"
