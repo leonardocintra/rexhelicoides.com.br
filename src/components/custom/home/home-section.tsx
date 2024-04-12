@@ -57,7 +57,7 @@ export default function HomeSection() {
             descricaoo="Feito para ter o melhor desempenho"
           />
           <HomeCard
-            imagem={"/img/helicoides/helicoide-na-carreta.jpeg"}
+            imagem={"https://res.cloudinary.com/rexhelicoides/image/upload/v1712940564/sydugntbvx7pyfgxizo5.jpg"}
             titulo="NA CARRETA"
             subTitulo="Todos os formatos"
             descricaoo="Trabalhamos sob medida"

@@ -7,10 +7,10 @@ export default function Produto() {
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
           <Image
             alt="feature"
-            width={300}
-            height={300}
+            width={1300}
+            height={2300}
             className="object-cover object-center h-full w-full"
-            src={"/img/helicoides/vertical/helicoide-1.jpeg"}
+            src={"https://res.cloudinary.com/rexhelicoides/image/upload/v1712940564/tqp6lkfokpquzj3ymnbz.jpg"}
           />
         </div>
         <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
