@@ -11,21 +11,22 @@ export default function HomeSection() {
               <Logo />
             </div>
             <div className="h-1 w-48 bg-blue-500 rounded"></div>
-            <div className="font-semibold font-leagueSpartan pt-4 text-2xl">
-              Fabricamamos helicóides sob medida
+            <div className="max-w-md text-right my-4">
+              <div className="font-semibold font-leagueSpartan pt-4 text-5xl italic">
+                Roscas Helicoidais
+              </div>
+              <div className="uppercase italic font-semibold text-orange-700 text-3xl">
+                Sob Medida
+              </div>
             </div>
           </div>
-          <p className="lg:w-1/2 w-full leading-relaxed text-gray-700 bg-gray-200 px-7 py-5 rounded-lg shadow-lg">
-            Somos uma empresa de helicóides especializada na fabricação e
-            fornecimento de componentes de transmissão de energia, incluindo
-            engrenagens helicoidais. Com equipes de design e engenharia, que
-            criam soluções personalizadas para atender às necessidades
-            específicas pra vocês.
-            <br /> <br />
-            Fique tranquilo, oferecemos serviços de reparo e manutenção, além de
-            outros produtos relacionados, para fornecer soluções completas de
-            transmissão de energia.
+          <p className="flex lg:w-1/2 leading-relaxed text-black bg-orange-700 p-4 rounded-full shadow-md shadow-amber-600 text-3xl sm:text-4xl text-center italic font-semibold items-center justify-center">
+            Fabricamos helicoides sob medida, em chapas de até 1/2 polegada
           </p>
+        </div>
+
+        <div className="my-8 bg-luqinha text-slate-50 rounded-sm py-8 text-center text-lg sm:text-3xl">
+          Podemos trabalhar com estoque, de acordo com a sua demanda!
         </div>
 
         <div className="text-center">
@@ -57,7 +58,9 @@ export default function HomeSection() {
             descricaoo="Feito para ter o melhor desempenho"
           />
           <HomeCard
-            imagem={"https://res.cloudinary.com/rexhelicoides/image/upload/v1712940564/sydugntbvx7pyfgxizo5.jpg"}
+            imagem={
+              "https://res.cloudinary.com/rexhelicoides/image/upload/v1712940564/sydugntbvx7pyfgxizo5.jpg"
+            }
             titulo="NA CARRETA"
             subTitulo="Todos os formatos"
             descricaoo="Trabalhamos sob medida"
