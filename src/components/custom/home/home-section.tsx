@@ -1,5 +1,6 @@
 import Logo from "@/components/custom/logo";
 import HomeCard from "./home-card";
+import Roscas from "../produto/roscas";
 
 export default function HomeSection() {
   return (
@@ -11,16 +12,16 @@ export default function HomeSection() {
               <Logo />
             </div>
             <div className="h-1 w-48 bg-blue-500 rounded"></div>
-            <div className="max-w-md text-right my-4">
+            <div className="max-w-md text-center sm:text-right my-4">
               <div className="font-semibold font-leagueSpartan pt-4 text-5xl italic">
                 Roscas Helicoidais
               </div>
-              <div className="uppercase italic font-semibold text-orange-700 text-3xl">
+              <div className={`uppercase font-blackOpsOne text-orange-700 text-3xl`}>
                 Sob Medida
               </div>
             </div>
           </div>
-          <p className="flex lg:w-1/2 leading-relaxed text-black bg-orange-700 p-4 rounded-full shadow-md shadow-amber-600 text-3xl sm:text-4xl text-center italic font-semibold items-center justify-center">
+          <p className="flex lg:w-1/2 leading-relaxed text-black bg-orange-700 p-4 rounded-full shadow-md shadow-amber-600 text-xl sm:text-4xl text-center italic font-semibold items-center justify-center">
             Fabricamos helicoides sob medida, em chapas de até 1/2 polegada
           </p>
         </div>
@@ -29,9 +30,12 @@ export default function HomeSection() {
           Podemos trabalhar com estoque, de acordo com a sua demanda!
         </div>
 
+        <Roscas />
+
         <div className="text-center">
           <h2 className="text-4xl mb-8">Nossos produtos</h2>
         </div>
+
         <div className="flex flex-wrap -m-4">
           <HomeCard
             imagem={

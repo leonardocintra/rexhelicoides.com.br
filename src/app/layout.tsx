@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Rex Helicoides",
-  description: "Helicoides",
+  description: "Roscas Helicoidais sob medida",
 };
 
 export default function RootLayout({

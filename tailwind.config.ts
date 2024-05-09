@@ -18,6 +18,8 @@ const config: Config = {
       },
       fontFamily: {
         leagueSpartan: ["League Spartan"],
+        bebasNeue: ["Bebas Neue"],
+        blackOpsOne: ["Black Ops One"],
       },
     },
   },
