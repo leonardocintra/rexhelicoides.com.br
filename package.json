@@ -2,6 +2,10 @@
   "name": "rex",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Leonardo Nascimento Cintra",
+    "email": "leonardo.ncintra@outlook.com"
+  },
   "scripts": {
     "dev": "rm -r .next && next dev",
     "build": "next build",
@@ -15,7 +19,7 @@
     "react-icons": "^5.0.1"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^22",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
