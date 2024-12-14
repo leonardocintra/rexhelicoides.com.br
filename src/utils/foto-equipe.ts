@@ -1,4 +1,4 @@
-const fotoJoaoMarcos = "/img/equipe/comarca.jpeg";
+const fotoJoaoMarcos = "/img/equipe/comarca.png";
 const fotoPedro = "/img/equipe/lourdes.jpg";
 const fotoDaniel = "/img/equipe/daniel.jpg";
 const fotoLeonardo = "/img/equipe/leonardo.png";
