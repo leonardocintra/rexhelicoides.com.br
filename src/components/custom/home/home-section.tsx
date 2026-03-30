@@ -1,5 +1,4 @@
 import Logo from "@/components/custom/logo";
-import HomeCard from "@/components/custom/home/home-card";
 import Produto from "@/components/custom/produto/produto";
 import Link from "next/link";
 

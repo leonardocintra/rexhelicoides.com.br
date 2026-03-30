@@ -1,7 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&display=swap');
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	:root {
+		color-scheme: light;
+		--background: #f7f0e6;
+		--foreground: #08101d;
+		--muted: #5f6c7d;
+		--panel: rgba(255, 255, 255, 0.78);
+		--panel-dark: rgba(10, 18, 31, 0.8);
+		--border: rgba(8, 16, 29, 0.12);
+		--accent: #f97316;
+		--accent-strong: #d95d0f;
+	}
+
+	* {
+		border-color: var(--border);
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		@apply bg-sand text-ink font-body antialiased;
+		background-image:
+			radial-gradient(circle at top left, rgba(249, 115, 22, 0.14), transparent 24%),
+			radial-gradient(circle at bottom right, rgba(7, 17, 31, 0.08), transparent 28%),
+			linear-gradient(180deg, #f8f3eb 0%, #f4ede2 100%);
+		min-height: 100vh;
+	}
+
+	main {
+		@apply relative;
+	}
+
+	::selection {
+		background: rgba(249, 115, 22, 0.2);
+	}
+
+	a {
+		@apply transition-colors;
+	}
+}
+
+@layer components {
+	.container-shell {
+		@apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+	}
+
+	.section-shell {
+		@apply py-16 sm:py-20 lg:py-24;
+	}
+
+	.glass-panel {
+		background: var(--panel);
+		backdrop-filter: blur(16px);
+		@apply rounded-[28px] border border-white/50 shadow-panel;
+	}
+
+	.dark-panel {
+		background: var(--panel-dark);
+		backdrop-filter: blur(18px);
+		@apply rounded-[28px] border border-white/10 text-white shadow-glow;
+	}
+
+	.eyebrow {
+		@apply inline-flex items-center gap-2 rounded-full border border-ember/20 bg-ember/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-ember;
+	}
+
+	.section-title {
+		@apply font-display text-4xl uppercase tracking-[0.08em] text-ink sm:text-5xl;
+	}
+
+	.section-copy {
+		@apply max-w-3xl text-base leading-7 text-slate-600 sm:text-lg;
+	}
+}
+
+@layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+}
+
+@keyframes float {
+	0%,
+	100% {
+		transform: translateY(0px);
+	}
+
+	50% {
+		transform: translateY(-8px);
+	}
+}
+
+@keyframes pulse-soft {
+	0%,
+	100% {
+		box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.2);
+	}
+
+	50% {
+		box-shadow: 0 0 0 14px rgba(249, 115, 22, 0);
+	}
+}

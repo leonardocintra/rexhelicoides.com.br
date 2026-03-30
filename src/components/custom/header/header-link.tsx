@@ -1,9 +1,10 @@
+import type { ReactNode } from "react";
 import Link from "next/link";
 
 interface MenuHeaderLinkProps {
   href: string;
   descricao: string;
-  icone: JSX.Element;
+  icone: ReactNode;
 }
 
 export default function MenuHeaderLink(props: MenuHeaderLinkProps) {
